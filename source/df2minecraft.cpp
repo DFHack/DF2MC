@@ -2699,7 +2699,7 @@ int convertMaps ( color_ostream & out )
     out.print ( "%d\n",vegs.size() );
 
 
-    
+
     //read buildings into a map organized by location (10 bit each for x,y,z packed into an int)
     out.print ( "Reading Buildings... " );
     map <uint32_t, string> custom_workshop_types;
